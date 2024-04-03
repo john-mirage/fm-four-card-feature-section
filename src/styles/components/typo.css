@@ -1,0 +1,52 @@
+.typo {
+  --_typo-font-stack-fallback: system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  font-family: "Poppins", var(--_typo-font-stack-fallback);
+}
+
+.typo--heading-md {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.01044rem;
+}
+
+.typo--heading-md-strong {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.01044rem;
+}
+
+.typo--heading-sm {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.typo--body-md {
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5625rem; /* 166.667% */
+  letter-spacing: 0.0065rem;
+}
+
+.typo--body-sm {
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4375rem; /* 176.923% */
+  letter-spacing: 0.00563rem;
+}
+
+@media screen and (min-width: 64rem) {
+  .typo--heading-md,
+  .typo--heading-md-strong {
+    font-size: 2.25rem;
+    letter-spacing: 0.01563rem;
+  }
+}

@@ -1,0 +1,17 @@
+@import url("./styles/reset.css");
+
+@import url("./styles/components/page.css");
+@import url("./styles/components/card.css");
+@import url("./styles/components/typo.css");
+@import url("./styles/components/grid.css");
+
+:root {
+  --color-white: #FFFFFF;
+  --color-light-grey: hsl(0, 0%, 98%);
+  --color-grey: hsla(234, 12%, 34%, 0.5);
+  --color-dark-grey: hsl(234, 12%, 34%);
+  --color-green: hsl(180, 100%, 39%);
+  --color-red: hsl(351, 100%, 69%);
+  --color-yellow: hsl(34, 97%, 64%);
+  --color-blue: hsl(212, 63%, 52%);
+}
